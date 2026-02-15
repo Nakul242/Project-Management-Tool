@@ -62,4 +62,5 @@ This application allows teams to manage projects, assign tasks, track progress u
 - JWT Authentication
 - bcrypt for password hashing
 
-Author Nakul Jadav ( B.Tech Student)
+👨‍💻 Author -> Nakul Jadav ( B.Tech Student)
+Built with dedication as a full-stack MERN project .
