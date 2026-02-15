@@ -8,6 +8,7 @@ import KanbanBoard from '../components/KanbanBoard';
 import CreateTaskModal from '../components/CreateTaskModal';
 import TaskDetailsModal from '../components/TaskDetailsModal';
 import AddMemberModal from '../components/AddMembersModal';
+import ProjectAnalytics from '../components/ProjectAnalytics';
 import { toast } from 'react-hot-toast';
 
 const ProjectDetails = () => {
@@ -149,6 +150,9 @@ const ProjectDetails = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Analytics */}
+                <ProjectAnalytics tasks={tasks} />
 
                 {/* Kanban Header */}
                 <div className="flex justify-between items-center mb-6">
