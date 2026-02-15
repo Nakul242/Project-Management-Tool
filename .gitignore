@@ -1,3 +1,7 @@
 node_modules/
 .env
 task.txt
+test-auth.js
+test-projects.js
+test-tasks.js
+test-comments.js
